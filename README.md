@@ -1,6 +1,6 @@
 ## App Deployment
 
-This app is currently deployed on Heroku under this URL `https://fifa-matches.herokuapp.com/`. The app is setup to automatically deploy whenever a collaborator commits to this repository.
+This app is currently deployed on Heroku under this URL `http://fifa-matches.herokuapp.com/`. The app is setup to automatically deploy whenever a collaborator commits to this repository.
 
 # FIFA World Cup
 
