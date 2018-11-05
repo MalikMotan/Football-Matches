@@ -2,7 +2,7 @@
 
 This app is currently deployed on Heroku under this URL `https://fifa-matches.herokuapp.com/`. The app is setup to automatically deploy whenever a collaborator commits to this repository.
 
-# CleanGames
+# FIFA World Cup
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
