@@ -96,6 +96,6 @@ import { BracketsComponent } from './views/brackets/brackets.component';
     MatchService,
     ApiEndpoints
   ],
-  bootstrap: [AppComponent, MatchGroupComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
