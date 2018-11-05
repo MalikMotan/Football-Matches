@@ -1,0 +1,42 @@
+<div id="match_container" *ngIf="formattedGroups.length">
+  <mat-card>
+    <mat-card-content *ngFor="let group of formattedGroups">
+      <div class="table-header">{{group.name}}</div>
+      <table>
+        <thead>
+          <tr>
+            <th><span class="title-acronym pl-20"> Team</span> </th>
+            <th><span class="pr-10 title-acronym"></span></th>
+            <th><span class="pr-10 title-acronym"></span></th>
+            <th><span class="pr-10 title-acronym">MP</span></th>
+            <th><span class="pr-10 title-acronym">W</span></th>
+            <th><span class="pr-10 title-acronym">D</span></th>
+            <th><span class="pr-10 title-acronym">L</span></th>
+            <th><span class="pr-10 title-acronym">GF</span></th>
+            <th><span class="pr-10 title-acronym">GA</span></th>
+            <th><span class="pr-10 title-acronym">GD</span></th>
+            <th><span class="pr-10 title-acronym"> Pts</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let match of group.standings; let i=index" [attr.data-index]="i">
+            <td>{{i+1}}</td>
+            <td><img src="https://www.countryflags.io/{{shortCountryName[match.team.name]}}/shiny/24.png" class="country-flag"></td>
+            <td>{{match.team.name}}</td>
+            <td>{{match.played}}</td>
+            <td>{{match.wins}}</td>
+            <td>{{match.draws}}</td>
+            <td>{{match.losses}}</td>
+            <td>{{match.goalsFor}}</td>
+            <td>{{match.goalsAgainst}}</td>
+            <td>{{match.goalsFor - match.goalsAgainst}}</td>
+            <td>{{match.points}}</td>
+            <mat-divider></mat-divider>
+          </tr>
+        </tbody>
+      </table>
+      <div class="group-divider">
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>
