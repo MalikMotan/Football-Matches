@@ -46,7 +46,7 @@ import {
 // Appplication components
 import { AppComponent } from './app.component';
 import { MatchGroupComponent } from './views/match-group/match-group.component';
-import { DashboardComponent } from './views/dashboard/dashboard.component';
+import { DashboardComponent } from './views/Dashboard/dashboard.component';
 import { BracketsComponent } from './views/brackets/brackets.component';
 
 @NgModule({
