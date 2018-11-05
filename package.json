@@ -1,12 +1,12 @@
 {
-  "name": "clean-games",
+  "name": "fifa",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
     "preinstall": "npm i typings -g",
-    "postinstall": "ng build --aot -prod",
+    "postinstall": "ng build --prod",
     "serve": "ng serve",
     "build": "ng build",
     "test": "ng test",
