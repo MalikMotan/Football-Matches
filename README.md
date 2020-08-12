@@ -1,14 +1,14 @@
 ## App Deployment
 
-This app is currently deployed on Heroku under this URL `http://fifa-matches.herokuapp.com/`. The app is setup to automatically deploy whenever a collaborator commits to this repository.
+This app is currently deployed on Heroku under this URL `http://fifa-matches.herokuapp.com/`. The app is setup to automatically deploy whenever a collaborator commits a merge to this repository.
 
 # FIFA World Cup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
+This project utilized [Angular CLI](https://github.com/angular/angular-cli) version 6.1.1.
 
 ## Development server
 
-In order to run this app locally, you need to install nodeJS v8.11.3 with npm and install angular-cli, then run the command `npm install`, then run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+In order to run this app locally, you need to install nodeJS with a minimum version of v8.11.3 using npm, and install angular-cli, then run the command `npm install`, then run `ng serve` for running the dev server. After that, navigate to `http://localhost:4200/` to view the running application in the browser. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
